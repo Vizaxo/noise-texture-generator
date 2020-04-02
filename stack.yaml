@@ -1,0 +1,10 @@
+resolver: lts-13.19
+
+packages:
+- .
+
+nix:
+  packages: [ zlib ]
+
+ghc-options:
+  "$locals": -fwarn-incomplete-patterns -fwarn-unused-imports

@@ -1,0 +1,14 @@
+name:                noise-texture-generator
+version:             0.1.0.0
+license:             PublicDomain # CC0
+
+dependencies:
+- base >= 4.7 && < 5
+- mwc-random
+- JuicyPixels
+
+default-extensions:
+- TypeApplications
+
+library:
+  source-dirs: src
